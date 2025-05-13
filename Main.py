@@ -19,7 +19,7 @@ class TicTacToe:
 
     def get_random_first_player(self):
         # Randomly choose which player goes first (0 for 'O', 1 for 'X')
-         return random.randint(0, 2) # increased number because 1) will only return 0, not 1
+        return random.randint(0, 2) # increased number because 1) will only return 0, not 1
 
     def fix_spot(self, row, col, player):
         # Mark the spot on the board with the player's symbol
